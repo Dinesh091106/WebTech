@@ -1,0 +1,44 @@
+/* article::first-letter{
+    font-size: xx-large;
+    color: red;
+} */
+/* article::first-line{
+    color: red;
+} */
+/* ul>li::marker{
+    color: red;
+    font-size: xx-large;
+} */
+/* article::selection{
+    background-color: aqua;
+    color:red;
+} */
+div{
+    position: relative;
+    border: 1px solid black;
+}
+h1{
+    text-align: center;
+}
+h1::before{
+    content: "";
+    border: 1px solid black;
+    position: absolute;
+    left: 150px;
+    width: 400px;
+    top:30px ;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: none;
+}
+h1::after{
+    content: "";
+    border: 1px solid black;
+    position: absolute;
+    left: 760px;
+    width: 400px;
+    top:32px ;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: none;
+}

@@ -1,0 +1,80 @@
+p{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    animation-name: para;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+    animation-delay: 5s;
+    
+}
+@keyframes para{
+  0%{
+    background-color: aqua;
+    top: 0px;
+    left: 0px;
+  }
+  25%{
+    background-color: blue;
+    top: 0px;
+    left: 250px;
+  }
+  50%{
+    background-color: violet;
+    top: 250px;
+    left: 250px;
+  }
+  75%{
+    background-color: red;
+    top: 250px;
+    left: 0px;
+  }
+  100%{
+    background-color: aqua;
+    top: 0px;
+    left: 0px;
+  }
+}
+/* div{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: aqua; */
+    /* transition: width 10s,height 5s; */
+    /* transition-duration: 5s; */
+    /* transition-delay: 5s; */
+    /* ease-start slow,then fast,slow end */
+    /* transition-timing-function: ease; */
+    /* ease-in-slow start */
+    /* transition-timing-function: ease-in; */
+    /* ease-out-slow end */
+    /* transition-timing-function: ease-out; */
+    /* ease-in-out-slow start slow end */
+    /* transition-timing-function: ease-in-out; */
+    /* linear-same speed throughout duration */
+    /* transition-timing-function:linear;
+} */
+/* div:hover{
+    transform: rotate(5000deg);
+} */
+/* button:hover + #para1{
+    animation-name: para;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+}
+button:hover ~ #para2{
+    animation-name: para;
+    animation-duration: 3s;
+    animation-fill-mode: both;
+}
+@keyframes para{
+    from{
+        font-size: 14px;
+    }
+    to{
+        font-size: 20px;
+    }
+} */

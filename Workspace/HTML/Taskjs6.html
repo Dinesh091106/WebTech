@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+      #maindiv {
+        position: relative;
+        margin-left: 200px;
+        margin-top: 50px;
+        width: 400px;
+        height: 60vh;
+        border: 2px solid grey;
+        background-color: grey;
+        border-radius: 10px;
+      }
+      #signBtn{
+        background-color: blue;
+        border: none;
+        width: 170px;
+        margin: 10px;
+        padding: 10px 20px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+      }
+      #sigin {
+        margin-top:-10px;
+        padding-top: 20px;
+        padding-left: 20px;
+        background-color: blue;
+        position: absolute;
+        width: 380px;
+        height: 280px;
+        border-radius: 10px;
+      }
+   
+      #loginBtn1{
+        background-color:aqua;
+        border: none;
+        width: 170px;
+        margin: 10px;
+        padding: 10px 20px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+      }
+      #loginBtn{
+        margin: 10px;
+        padding: 10px 20px;
+      }    
+      #login {
+        display: none;
+        padding-top: 20px;
+        margin-top:-10px;
+        height:280px;
+        background-color:aqua;
+        border-radius: 10px;
+      }
+      #submit{
+        padding: 10px 20px;
+        margin-left: 50px;
+      }
+    </style>
+</head>
+<body>
+      <h1>Select the color</h1>
+      <select name="" id="selection">
+          <option value=""></option>
+          <option value="aqua">aqua</option>
+          <option value="red">red</option>
+          <option value="grey">grey</option>
+      </select>
+
+    <div id="maindiv">
+        <button id="signBtn"> SIGN UP</button>
+        <button id="loginBtn1">LOGIN</button>
+        <div id="sigin">
+          <label for="">NAME :</label>
+          <input type="text" id="name" /><br /><br />
+          <label for="">EMAIL ID :</label>
+          <input type="text" id="mailid" required /><br /><br />
+          <label for="">CREATE USERNAME :</label>
+          <input type="text" id="username" required /><br /><br />
+          <label for="">CREATE PASSWORD:</label>
+          <input type="text" required id="password" /><br /><br />
+          <input type="submit" id="submit" />
+        </div>
+        <div id="login">
+          <label for="">ENTER YOUR USERNAME : </label>
+          <input type="text" id="log-username" required /><br /><br />
+          <label for="">ENTER YOUR PASSWORD : </label>
+          <input type="text" id="log-password" required /><br /><br />
+          <button id="loginBtn">LOGIN</button>
+        </div>
+      </div>
+
+            <script src="../JS/Taskjs6.js"></script>
+</body>
+</html>

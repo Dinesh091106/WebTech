@@ -1,0 +1,57 @@
+#grid-container{
+    border: 1px solid black;
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 150px 200px 200px 200px;
+    /* row-gap: 10px;
+    column-gap: 10px; */
+    gap: 10px;
+    grid-template-areas: "Header Header Header"
+    "Nav Nav Nav"
+    "Aside Section1 Section1"
+    "Aside Section2 Section2"
+    "Footer Footer Footer";
+}
+.grid-items{
+    border: 1px solid black;
+    background-color: blue;
+    font-size: xx-large;
+    text-align: center;
+}
+/* #item1{
+    grid-column: 1/4;
+}
+#item2{
+    grid-column: 1/4;
+}
+#item3{
+    grid-row: 3/5;
+}
+#item4{
+    grid-column: 2/4;
+}
+#item5{
+    grid-column: 2/4;
+}
+#item6{
+    grid-column: 1/4;
+} */
+#item1{
+    grid-area: Header;
+}
+#item2{
+    grid-area: Nav;
+}
+#item3{
+    grid-area: Aside;
+}
+#item4{
+    grid-area: Section1;
+}
+#item5{
+    grid-area: Section2;
+}
+#item6{
+    grid-area: Footer;
+}

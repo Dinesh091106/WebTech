@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <h3>Data literals:</h3>  
+  typeof: <br>
+    it is a special operator in javascript <br>
+    it is a unary operator(will workon only one operator) <br>
+    typeof-will check the datatype of an operand
+    <h3>String:</h3>
+    set of character or single character consider as string in javascript <br>
+    String can be declared in three ways they are <br>
+    1.single quotes <br>
+    2.double quotes <br>
+    3.backticks
+    <h4>Advantage of using backticks:</h4>
+    no need to use +(concate) operator for concatination <br>
+    no need to to use regular expression to go the next line <br>
+    if you want to give the space betwwen two numbers just give the space using ${} and go to the next line just click the the enter button
+    <h3>Number:</h3>
+    number are cosidered as number in javascript <br>
+    we don't have any datatypes in number but we have some range in numbers(2^53-1) to -(2^53-1) <br>
+    <h3>Bigint:</h3>
+    cosidered as number datatype. <br>
+    when the range is getting exceeded we have to use bigint <br>
+    bigint stands for biginteger <br>
+    suffix of the number we have to use n <br>
+    should not mix number and bigint <br>
+    <h3>Boolean:</h3>
+    true and false keyword in javascript is considered as boolean datatypes <br>
+    mostly we will get boolean on conditional based operations
+    <h3>Null:</h3>
+    it is a keyword in javascript <br>
+    it has value in javascript <br>
+    when the absence the data we will be using the value called null <br>
+    typeof null nothing but object <br>
+    typeof typeof null is string
+    <h3>Undefined:</h3>
+    it is a keyword in javascript <br>
+    it has a value <br>
+    when a variable declared in javascript,javascript engine implicity assign a value called undefined
+    <h3>Not defined:</h3>
+    when a variable is not declared in javascript it is called as not defined
+    <h3>Non primitive</h3>
+    developer creating object
+    <h4>Object</h4>
+    any entity which is existing in the real world considered as object <br>
+    object will have state and behaviour <br>
+    state-what object can have <br>
+    behaviour-what object can do <br>
+    both state and behaviour considered as property in javascript <br>
+    property will be in the form of key and values <br>
+    javascript object nothing but collectioned of key value pairs
+    <h3>How to access object member</h3>
+    objectref.member/objectref.memberfunction() 
+    <h3>Variable</h3>
+    named block of memory   <br>
+    to store the data/values <br>
+    there are three variables in javascript are <br> 1.var, <br>2.let, <br>3.const <br>
+    javascript is an dynamically typed language hence we can able to change the datatype during runtime of the execution <br>
+    javascript also called as weakly typed language <br>
+    hence declaring variable is mandatory <br>
+    declaring datatype is not mandatory
+    <h3>Characteristics of var,let and const</h3>
+    1.variable declaration <br>
+    2.scope <br>
+    3.hoisting <br>
+    4.temporal dead zone
+    <h3>Variable declaration</h3>
+    <h4>var</h4>
+    var a;//Declaration <br>
+    a=10;//initialization <br>
+    a=80;//re-initialization <br>
+    var a=90;//re-declaration & re-initialization <br>
+    var b=80;//declaration & initialization <br>
+    <h4>let</h4>
+    let love;//declaration <br>
+    love='priya';//intialization <br>
+    love='sharmila';//re-initialization <br>
+    let love='priya';//re-declaration is not possible re-initialization is not possible <br>
+    let love2='marriage'//declaration & intialization
+    <h4>const</h4>
+    const loved='marriage';//declaration & initialization <br>
+    re-declaration & re-initialization both are not possible
+    <h4>type coersion(process of converting one datatype to another datatype)</h4>
+    classified into two types <br>
+    1.implicit type coersion <br>
+    2.explicit type coersion <br>
+    <h4>implicit type coersion</h4>
+    implicit type coercion-the process of converting one datatype to another datatype by javascript engine when the wrong datatype enter by developer or user nothing but implicit type coercion
+    <h4>NaN stands for not a number</h4>
+    when we are trying toconvert string into number as result we will get NaN(not a number) <br>
+    typeof NaN is number <br>
+    isNaN("35a")not a number//true <br>
+    is NaN("35")not not a number(or)number//false
+    <h4>explicit type coercion</h4>
+    the process of converting one datatype into another datatype by javascript developer
+    <h4>scope</h4>
+    there are three kind of scope-global,local,lexical <br>
+    global-highest visibility of the member-var
+    local-visibility only inside the block-let/const <br>
+    lexical-the ability of javascript engine search for a member inside the block,if member is not present it will go for global
+    <h4>Hoisting</h4>
+    calling a variable before declaration is known as hoisting
+    <h4>Temporal dead zone</h4>
+    time gap between declaration and initialization <br>
+    let and const:declare and use it
+
+<!-- internal js code -->
+    <!-- <script>
+        console.log("hello js")
+    </script> -->
+    <script src="../JS/Script.js"></script>
+
+    <!-- <script type="module" src=""></script> -->
+</body>
+</html>

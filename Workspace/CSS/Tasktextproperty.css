@@ -1,0 +1,23 @@
+nav{
+    border: 1px solid black;
+    text-align: center;
+    word-spacing: 1800px;
+    padding: 30px;
+    background-color: aqua;
+}
+a{
+    text-decoration: none;
+}
+div{
+    height: 100vh;
+    border: 1px solid black;   
+}
+p{
+    color: red;
+    text-shadow: 1px 1px black;
+    word-spacing: 40px;
+    line-height: 50px;
+}
+input:hover{
+    background-color: red;
+}

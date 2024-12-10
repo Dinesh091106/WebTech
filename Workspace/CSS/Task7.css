@@ -1,0 +1,103 @@
+#div1{
+    height: 100vh;
+    background-color: rgb(247, 247, 247);
+}
+#heading{
+    text-align: center;
+    font-family: sans-serif;
+}
+#heading::before{
+    content: "";
+    border: 1px solid black;
+    width: 500px;
+    position: absolute;
+    left: 100px;
+    top: 36px;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: none;
+}
+#heading::after{
+    content: "";
+    border: 1px solid black;
+    width: 490px;
+    position: absolute;
+    left: 710px;
+    top: 36px;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-right-style: none;
+}
+#div2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.para{
+    border: 1px solid white;
+    height: 500px;
+    width: 500px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 30px;
+}
+#div5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.para2{
+    border: 1px solid pink;
+    text-align: center;
+    height: 10px;
+    width: 170px;
+    padding: 20px;
+    border-radius: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#p1{
+    background-color: rgb(213,35,73);
+    color: rgb(255, 255, 255);
+}
+#p2{
+    background-color: rgb(37,33,34);
+    color: rgb(255, 255, 255);
+}
+#div6{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.para3{
+    border: 1px solid pink;
+    text-align: center;
+    height: 10px;
+    width: 140px;
+    padding: 20px;
+    border-radius:8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#p3{
+    background-color: rgb(213,35,73);
+    color: rgb(255, 255, 255);
+}
+#p4{
+    background-color: rgb(37,33,34);
+    color: rgb(255, 255, 255);
+}
+#icon2,#icon4{
+    color: rgb(113,110,111);
+}
+#icon1,#icon3{
+    color: rgb(228,112,137);
+}
+#a,#b,#c,#d,#e,#f{
+    padding-left: 20px;
+    font-family: sans-serif;
+}
+#b,#c,#e,#f{
+    color: rgb(119,142,161);
+}

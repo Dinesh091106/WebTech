@@ -1,0 +1,14 @@
+p{
+    color: red;
+    /* text-align: left;
+    text-indent: 20px;
+    text-decoration: line-through; */
+    text-transform:capitalize;
+    text-shadow: 1px 1px black;
+    /* letter-spacing: 5px;
+    word-spacing:25px ; */
+    line-height: 50px;
+}
+a{
+    text-decoration: none;
+}

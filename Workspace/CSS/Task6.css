@@ -1,0 +1,19 @@
+div{
+    border: 1px solid black;
+    background-color: aqua;
+}
+#p1{
+    position: relative;
+    left: 500px;
+    animation-name: para;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+@keyframes para{
+    from{
+        transform:translateX(100%)
+    }
+    to{
+        transform: translateX(-130%);
+    }
+}

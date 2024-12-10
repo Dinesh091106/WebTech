@@ -1,0 +1,25 @@
+img{
+    height: 400px;
+    width: 400px;
+}
+/* img[alt]{
+    border: 5px solid red;
+} */
+/* img[alt='cow']{
+    border: 5px solid red;
+} */
+/* img[alt^="snow"]{
+    border: 5px solid red;
+} */
+/* img[alt$="snow"]{
+    border: 5px solid red;
+} */
+/* img[alt|="snow"]{
+    border: 5px solid red;
+} */
+/* img[alt~="snow"]{
+    border: 5px solid red;
+} */
+/* img[alt*="s"]{
+    border: 5px solid red;
+} */

@@ -1,0 +1,19 @@
+p{
+    height: 100vh;
+    /* background-color: red; */
+    /* red,green,blue */
+    /* background-color: rgb(30,110,80); */
+    /* red,green,blue,alpha */
+    /* background-color: rgba(255,0,0,0.5); */
+    /* hue,saturation,lightness */
+    /* background-color: hsl(200,100% ,50% ); */
+    /* hue,saturation,lightness,alpha */
+    /* background-color: hsla(0,100% ,50% ,0.5 ); */
+    background-color: #26d82691;
+}
+div{
+    background-image: url(../Assests/Image/audi.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}

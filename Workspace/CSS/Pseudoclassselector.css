@@ -1,0 +1,80 @@
+/* a:link{
+    color: yellow;
+}
+a:visited{
+    color: aqua;
+} */
+/* a:active{
+    color: yellow;
+} */
+/* a:hover{
+    font-size: 45px;
+} */
+/* button:hover{
+    background-color: yellow;
+} */
+/* p{
+    border: 1px solid black;
+    display: inline;
+}
+span{
+    border: 1px solid black;
+    display: none;
+    visibility: hidden;
+} */
+/* p:hover+span{
+    display: block;
+}
+div#aa{
+    border: 1px solid black;
+    display: block;
+    height: 50vh;
+}
+div#aaa{
+    border: 1px solid black;
+    height: 50vh;
+    display:none;
+}
+button:hover+div#aa>div#aaa{
+    background-color: red;
+    display: block;
+}
+#pic1{
+    opacity: 0.5;
+}
+#pic2{
+    opacity:0.5;
+}
+
+#pic1:hover{
+    opacity:1.0;
+}
+#pic2:hover{
+    opacity:1.0;
+}*/
+/* input{
+    padding: 10px;
+    margin-bottom: 25px;
+}  */
+/* input[type="text"]:enabled{
+    background-color: aqua;
+} */
+/* input[type="text"]:disabled{
+    background-color:red;
+} */
+/* input[type="text"]:required{
+    background-color: red;
+} */
+/* input[type="text"]:focus{
+    background-color: aqua;
+} */
+/* input[type="text"]:read-only{
+    background-color: aqua;
+} */
+/* input[type="text"]:read-write{
+    background-color:blue;
+    color:white;
+} */
+/* input[id="fname"]:valid{
+    background-color: red;
+} */

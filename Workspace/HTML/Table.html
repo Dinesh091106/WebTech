@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table{
+            border: 1px solid black;
+        }
+        th,td{
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        table,th,td{
+            border-spacing: 5px;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <h1>Emp table</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>S.No</th>
+                <th>Emp name</th>
+                <th>Emp Location</th>
+                <th>Emp Current Location</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Smith</td>
+                <td colspan="2">Bangalore</td>
+                <!-- <td>Bangalore</td> -->
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>David</td>
+                <td>Bangalore</td>
+                <td rowspan="2">Chennai</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Allen</td>
+                <td>Trichy</td>
+                <!-- <td>Chennai</td> -->
+            </tr>
+        </tbody>
+            
+        
+    </table>
+</body>
+</html>

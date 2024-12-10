@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/efcbbfd9d8.js" crossorigin="anonymous"></script>
+    <style>
+        body{
+            background-color: aqua;
+        }
+        #maindiv{
+            border: 2px solid black;
+            width: 350px;
+            height: 350px;
+            background-color:rgb(51, 121, 153);
+            margin-left: 450px;
+            margin-top: 100px;
+            border-radius: 10px;
+        }
+        #div4{
+            position: relative;
+        }
+        #eye1{
+            position: absolute;
+            left: 145px;
+            top: 25px;
+            color: rgb(51, 121, 153);
+            cursor: pointer;
+        }
+        #div5{
+            position: relative;
+        }
+        #eye2{
+            position: absolute;
+            left: 145px;
+            top: 25px;
+            color: rgb(51, 121, 153);
+            cursor: pointer;
+        }
+        .division{
+            margin-left: 50px;
+        }
+        #login{
+            color: black;
+        }
+        #submit{
+            margin-left: 80px;
+            width:80px;
+            height: 30px;
+            border-radius: 10px;
+        }
+        #user,#mail,#pass,#cpass{
+            border-radius: 10px;
+            height: 20px;
+        }
+        #error-message {
+            color: red;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div id="maindiv">
+        <div id="div1" class="division">
+            <h1>Signup</h1>
+        </div>
+        <div id="div2" class="division">
+            <label for="">Username</label>
+            <br>
+            <input type="text"  id="user">
+            <br>
+        </div>
+        <div id="div3" class="division">
+            <label for="">Email</label>
+            <br>
+            <input type="text" id="mail">
+            <br>
+        </div>
+        <div id="div4" class="division">
+            <label for="">Password</label>
+            <br>
+            <input type="text" id="pass">
+            <i class="fa-solid fa-eye" id="eye1"></i>
+            <br>
+        </div>
+        <div id="div5" class="division">
+            <label for="">Confirm Password</label>
+            <br>
+            <input type="text" id="cpass">
+            <i class="fa-solid fa-eye" id="eye2"></i>
+            <br>
+            <span id="error-message"></span>
+        </div>
+        <div id="div6" class="division">
+            <br>
+            <label for="">Already have an Account?</label>
+            <a href="" id="login">Login</a>
+        </div>
+        <div id="div7" class="division">
+            <br>
+            <input type="submit" id="submit">
+        </div>
+    </div>
+
+
+
+
+    <script src="../JS/Taskjs7.js"></script>
+</body>
+</html>

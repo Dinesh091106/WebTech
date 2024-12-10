@@ -1,0 +1,24 @@
+#div2{
+    border: 1px solid black;
+    text-align: center;
+    background-color: aqua;
+}
+#div3{
+    border: 1px solid black;
+    height: 100vh;
+    background-color: wheat;
+}
+#div4{
+    border: 1px solid black;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
+    overflow: scroll;
+    background-color: black;
+    opacity: 0.7;
+    color: white;
+}
+li{
+    line-height: 50px;
+}

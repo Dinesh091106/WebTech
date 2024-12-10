@@ -1,0 +1,16 @@
+/* descendent selector-select direct childeren and indirect children */
+/* div p{
+    background-color: aqua;
+} */
+/* child selector-it will target direct children */
+/* div>p{
+    background-color: aqua;
+} */
+/* adjacent sibling-target next sibling */
+/* div+p{
+    background-color: aqua;
+} */
+/* general sibling-target all sibling */
+/* div~p{
+    background-color: aqua;
+} */

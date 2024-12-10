@@ -1,0 +1,27 @@
+header{
+    background-color: aqua;
+    border: 1px solid black;
+    height:75px;
+    text-align: center;
+    word-spacing: 200px;
+    line-height: 50px;
+    position: sticky;
+    top: 0px;
+}
+div{
+    border:1px solid black;
+    height: 78vh;
+    z-index: -5;
+
+}
+.div1{
+    position: sticky;
+}
+footer{
+    background-color: aqua;
+    border: 1px solid black;
+    height: 75px;
+    text-align: center;
+    bottom: 0px;
+    position: sticky;
+}

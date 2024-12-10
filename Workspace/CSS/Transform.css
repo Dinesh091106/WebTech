@@ -1,0 +1,45 @@
+/* p{
+    border: 1px solid black;
+    height: 170px;
+    width: 150px;
+    transition: 2s;
+} */
+/* p:hover{
+    /* transform: translate(250px,250px); */
+    /* transform: translateX(250px); */
+    /* transform: translateY(250px); */
+    /* transform: scale(1.5,1.5); */
+    /* transform: scaleX(1.5); */
+    /* transform: scaleY(1.5); */
+    /* transform: skew(25deg,25deg); */
+    /* transform: skewX(25deg); */
+    /* transform: skewY(25deg); */
+    /* transform: rotate(45deg); */
+    /* transform: rotateZ(45deg); */
+/* } */ 
+/* button{
+    transition: 2s;
+}
+button:hover{
+    transform: scale(1.25,1.25);
+} */
+
+#div1{
+    background-color: aqua;
+    height: 100vh;
+    border: 1px solid black;
+    padding-left: 500px;
+    padding-top: 250px;
+}
+#div{
+    border: 10px solid white;
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border-top-color: blue;
+    transition: 5s;
+    border-top-style: inset;
+}
+#div:hover{
+    transform: rotate(2720deg);
+}
